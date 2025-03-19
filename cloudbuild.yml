@@ -16,3 +16,5 @@ steps:
         "push",
         "southamerica-east1-docker.pkg.dev/microservices-nestjs-453917/nestmicroservicesdevtalles/auth-ms-prod",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
