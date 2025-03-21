@@ -36,7 +36,7 @@ export class AuthService extends PrismaClient implements OnModuleInit {
       if (!user) {
         throw new RpcException({
           status: 400,
-          message: 'User/Password not valid',
+          message: 'User/Password not valid!!',
         });
       }
 
@@ -45,7 +45,7 @@ export class AuthService extends PrismaClient implements OnModuleInit {
       if (!isPasswordValid) {
         throw new RpcException({
           status: 400,
-          message: 'Password not valid',
+          message: 'Password not valid!!',
         });
       }
 
